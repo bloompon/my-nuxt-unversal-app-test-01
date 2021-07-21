@@ -1,3 +1,6 @@
 cloning 2
 
+
 erease all previous
+
+touch up through git console 
