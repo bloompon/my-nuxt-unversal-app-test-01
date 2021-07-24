@@ -9,8 +9,3 @@ npm run start
 To test
 npm run test
 
-setup git rep already date 21 Jul 2021
-update test through git hub portal 
-update 21 Jul 2021 1:48
-
-update 21 JUl 2021 11:56

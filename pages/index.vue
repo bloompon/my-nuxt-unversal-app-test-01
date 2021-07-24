@@ -52,8 +52,7 @@
       </div>
     </div>
   
-
-  </main>
+   </main>
   <!-- Static content -->
   
 
