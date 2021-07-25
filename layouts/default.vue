@@ -49,6 +49,9 @@
                   <NuxtLink to="/ssr_async_rendering"              
                             class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Server Side Rendering Async API</NuxtLink>
 
+                  <NuxtLink to="/ssr_api_cms"              
+                            class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">SS API CMI</NuxtLink>
+
  
                 </div>
               </div>
@@ -99,7 +102,12 @@
 
             <NuxtLink to="/ssr_async_rendering" 
                       class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Server Side Rendering Async API</NuxtLink>
+
+            <NuxtLink to="/ssr_api_cms" 
+                      class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">SS API CMI</NuxtLink>
  
+
+
            </div>
         </div>
       </nav>

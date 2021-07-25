@@ -2,7 +2,7 @@ let development = process.env.NODE_ENV !== 'production'
 
 export default {
   env: {
-    apiURL: development ? 'http://localhost:3001/api' : 'https://domain/api'
+    apiURL: development ? 'http://local-wwwuat.bloompon.com/erp/en-US' : 'http://wwwuat.bloompon.com/erp/en-US'
   },
   
   // Global page headers: https://go.nuxtjs.dev/config-head
