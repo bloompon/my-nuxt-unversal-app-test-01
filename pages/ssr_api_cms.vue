@@ -8,9 +8,9 @@
       <Article
           v-for="post in posts"
           v-bind:key="post.id"
-          v-bind:articleId="post.articleId"
-          v-bind:title="post.title"
-          v-bind:termCondition="post.termCondition"
+          v-bind:article_id="post.article_id"
+          v-bind:headline="post.headline"
+          v-bind:content="post.content"
           v-bind:imgs="post.imgs"
         />
 
