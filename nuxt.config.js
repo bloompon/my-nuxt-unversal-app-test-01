@@ -74,6 +74,7 @@ export default {
   build: {
   },
   server: {
+    host: '0.0.0.0', // default: localhost
     port: development ? '3000' : '80' // default: 3000
   }
 }
