@@ -74,6 +74,6 @@ export default {
   build: {
   },
   server: {
-    port: development ? '3000' : '3000' // default: 3000
+    port: development ? '3000' : '80' // default: 3000
   }
 }
