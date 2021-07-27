@@ -28,6 +28,7 @@
 <script>
 
 
+
 const axios = require("axios");
 const url = process.env.apiURL + '/api_article';
 
@@ -38,7 +39,14 @@ export default {
     try {
       res = (await axios.get(url))
       res = res.data
-      console.log(res)
+      /*
+      console.log(res)  
+      */   
+      console.log('process.server =', process.server)
+      console.log('fetch /api_article')   
+      console.log(Date.now())
+    
+
     } catch(e){
       console.error(e)
     }

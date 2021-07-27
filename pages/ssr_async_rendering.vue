@@ -40,7 +40,9 @@ const url ="https://jsonplaceholder.typicode.com/posts";
             };
       },
       created() {
+          /*
           console.log('create() =', this.titles);
+          */
       },      
       mounted() {
       }    

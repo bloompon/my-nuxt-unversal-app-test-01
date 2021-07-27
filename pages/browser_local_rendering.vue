@@ -34,10 +34,14 @@ import ListItem from "~/components/ListItem";
         }
       ),
       created() {
+          /*
           console.log('create() =', this.titles);
+          */
       },    
       mounted() {
+          /*
           console.log('mounted() = ', this.titles);
+          */
       }    
     
       

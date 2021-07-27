@@ -23,8 +23,8 @@
 export default {
     props: {
         article_id: {
-            type: Number,
-            default: null
+            type: String,
+            default: "Fallback"
         },
         headline: {
             type: String,
